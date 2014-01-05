@@ -1,10 +1,10 @@
-This is my attempt at createing a Jekyll site.
+This is my attempt at creating a Jekyll site.
 ==============================================
 
 It with be a profolio with an option for a blog.
 ------------------------------------------------
 
-I wouldn't expect anything fancy nor produced quickly. It is a full-faith attempt at learning Jekyll. So far so good. We shall see though.
+I wouldn't expect anything fancy nor anything produced quickly. It is a full-faith attempt at learning Jekyll. So far so good. We shall see though...
 
 ### What said site will include:
 
@@ -18,4 +18,4 @@ I wouldn't expect anything fancy nor produced quickly. It is a full-faith attemp
 
 ### Warning!
 
-If [Dylan Turner(https://github.com/dylntrnr) ever steals any of this, he can expect the wrath of Kahn, god, and the US Justice System upon him.
+If [Dylan Turner](https://github.com/dylntrnr) ever steals any of this, he can expect the wrath of Kahn, god, and the US Justice System upon him.
