@@ -11,6 +11,13 @@ title: Patrick Thompson
       <p>{{ post.excerpt}}</p>
     {% endfor %}
   </ul>
+  <div class="video">
+  {% for video in site.categories.video %}
+    {% if video.vimeo_id %}
+      <iframe src="http://player.vimeo.com/video/{{ video.vimeo_id }}" width="628" height="353" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% endif %}
+  {% endfor %}
+</div>
   <ul class="pages">
     {% for page in site.pages %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>
