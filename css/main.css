@@ -10,17 +10,34 @@
   padding: 0;
 }
 
+html { font-size:62.5%; }
+
 html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 1.6em/2.2rem "freight-text-pro", sans-serif;
   font-size: small;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1 { font: 3.2rem/2rem "brandon-grotesque", sans-serif; } 
+h2 { font: 2.6rem/1.846rem "brandon-grotesque", sans-serif; } 
+h3 { font: 2.2rem/1.818rem "brandon-grotesque", sans-serif; } 
+h4 { font: 1.8rem/1.77rem "brandon-grotesque", sans-serif; } 
+h5 { font: 4.8rem/1.68rem "brandon-grotesque", sans-serif; } 
+h6 { font: 4.8rem/1.68rem "brandon-grotesque", sans-serif; } 
+
+/****  Media Query for the Fonts Yo ****/
+
+@media screen and (min-width:1280px) {
+  h1 { font: 4.8rem/1.68rem "brandon-grotesque", sans-serif; } 
+  h2 { font: 3.6rem/2rem "brandon-grotesque", sans-serif; } 
+  h3 { font: 2.8rem/2rem "brandon-grotesque", sans-serif; } 
+  h4 { font: 1.8rem/1.95rem "brandon-grotesque", sans-serif; } 
+  h5 { font: 4.8rem/1.68rem "brandon-grotesque", sans-serif; } 
+  h6 { font: 4.8rem/1.68rem "brandon-grotesque", sans-serif; }
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -56,9 +73,8 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 90%;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -81,13 +97,18 @@ a:visited { color: #a0a; }
   color: #000;
 }
 
-.header a.extra {
+.header .skills-title {
   color: #aaa;
   margin-left: 1em;
+  font-family:"brandon-grotesque", sans-serif;
+  font-size:1.8rem;
 }
 
-.header a.extra:hover {
-  color: #000;
+.header .extra {
+  color: #a00;
+  margin-left: 1em;
+  font-family:"brandon-grotesque", sans-serif;
+  font-size:1.8rem;
 }
 
 .meta {
@@ -95,11 +116,12 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
+  font-size:1.8rem;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  font-weight:300;
 }
 
 .footer .contact {
@@ -108,7 +130,11 @@ a:visited { color: #a0a; }
 }
 
 .footer .contact a {
-  color: #8085C1;
+  color: #a00;
+}
+
+.footer .contact a#contact {
+  color: #666;
 }
 
 .footer .rss {
@@ -158,3 +184,26 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+.video-lg {
+  display:none;
+}
+
+.video-md {
+  display:none;
+}
+
+.video-sm {
+  display:block;
+}
+
+@media (min-width:1280px) {
+  .video-lg {
+    display:block;
+  }
+  .video-sm {
+    display:none;
+  }
+}
+
+

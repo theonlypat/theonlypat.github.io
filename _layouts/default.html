@@ -12,13 +12,19 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <script type="text/javascript" src="//use.typekit.net/htl7ryi.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     </head>
     <body>
 
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <span class="skills-title">Video Editor | Cinematographer | Graphic / Web Designer</span>
+            <!-- <a class="extra" href="/">Home</a> -->
+            <a class="extra" href="#contact">Contact</a>
+            <!-- <a class="extra" href="/about/">About</a> -->
           </div>
 
           {{ content }}
@@ -26,15 +32,15 @@
           <div class="footer">
             <div class="contact">
               <p>
-                Patrick Thompson<br />
+                <a id="contact"><span class="tk-brandon-grotesque">Patrick Thompson</span><br /></a>
                 Video Editor | Cinematographer | Graphic / Web Designer<br />
-                theonlypat@gmail.com
+                <a href="mailto:patrick@xfsmail.com">patrick@xfsmail.com</a>
               </p>
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/theonlypat">github.com/theonlypat</a><br />
                 <a href="https://twitter.com/theonylpat">twitter.com/theonlypat</a><br />
+                <a href="http://vimeo.com/patrickthompson">vimeo.com/patrickthompson</a>
               </p>
             </div>
           </div>
